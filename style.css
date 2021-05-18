@@ -1,0 +1,81 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(131, 133, 133);
+    padding: 0;
+    width: 90%;
+    border: 2px solid rgb(192, 190, 190);
+    border-radius:15px ;
+    margin: 3px auto;
+
+}
+li a {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+
+
+    
+}
+li a:hover {
+    background-color: #333;
+}
+li{
+   float: left;
+   width: 25%;
+    
+}
+
+.jobb {
+    background-color:rgb(131, 133, 133) ;
+    
+    border: 2px solid rgb(192, 190, 190);
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 3px;
+
+    
+    
+
+
+}
+.menuk{
+    
+    margin-top: 40px;
+    font-size: 25px;
+}
+.q{
+    color:rgb(0, 0, 0);
+    opacity:0;
+}
+body{
+    background-image: url('karc.jpg');
+}
+.tartalom{
+    font-size: 20px;
+    padding: 20px;  
+    background-color: rgb(122, 122, 121);
+    margin-top: 50px;
+   
+   
+}
+img{
+    max-width: 40%;
+    max-height: 300px;
+}
+
+.kozepkep{
+    margin: 0 auto;
+    display: block;
+}
+
+.kepek{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
